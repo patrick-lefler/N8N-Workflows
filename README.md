@@ -110,19 +110,6 @@ All workflows use N8N's Luxon DateTime object (`$today.toFormat('MMMM d, yyyy')`
 
 ---
 
-## Change Log
-
-| Date | Workflow | Change |
-|---|---|---|
-| Mar 2026 | a16z Crypto | Upgraded to prompt v2 — adversarial framing with Portfolio Agenda Check section |
-| Mar 2026 | a16z Crypto | Increased max tokens from 1500 to 3000 |
-| Mar 2026 | Daily Dirtnap | Added markdown table parser to HTML converter for Trade Inventory section |
-| Mar 2026 | Article Analyzer | Initial build — Form Trigger + Jina AI + Claude generic prompt |
-| Mar 2026 | All | Standardised HTML styling — birch banner, Arial font, consistent footer |
-| Mar 2026 | All | Added Retry on Fail to all Anthropic API nodes — 3 retries, 2 min wait |
-
----
-
 ## Notes
 
 - The Daily Dirtnap workflow is designed specifically for newsletters delivered as PDF attachments. If Jared Dillian changes the delivery format, Node 2's Download Attachments configuration and Node 3's base64 PDF handling will need to be reviewed.
